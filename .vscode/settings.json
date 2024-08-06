@@ -1,0 +1,38 @@
+{
+    "jira-plugin.workingProject": "",
+    "MicroPython.executeButton": [
+        {
+            "text": "▶",
+            "tooltip": "Run",
+            "alignment": "left",
+            "command": "extension.executeFile",
+            "priority": 3.5
+        }
+    ],
+    "MicroPython.syncButton": [
+        {
+            "text": "$(sync)",
+            "tooltip": "sync",
+            "alignment": "left",
+            "command": "extension.execute",
+            "priority": 4
+        }
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.ruby-lsp": true,
+        "**/.apivcs": true,
+        "**/.gitignore": true,
+        "**/.designer.json": true,
+        "**/.exchange.xml": true,
+        "**/.vscode": true,
+        "**/.mvn": true,
+        "**/.exchange_modules_tmp": true,
+        ".mule": true
+    }
+}
