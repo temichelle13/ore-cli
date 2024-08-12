@@ -1,0 +1,21 @@
+config_version = "1"
+
+[[components]]
+pkg = "cargo"
+target = "x86_64-pc-windows-msvc"
+
+[[components]]
+pkg = "rust-analyzer-preview"
+target = "x86_64-pc-windows-msvc"
+
+[[components]]
+pkg = "rust-std"
+target = "x86_64-pc-windows-msvc"
+
+[[components]]
+pkg = "rustc"
+target = "x86_64-pc-windows-msvc"
+
+[[components]]
+pkg = "rustfmt-preview"
+target = "x86_64-pc-windows-msvc"
